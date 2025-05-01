@@ -1,5 +1,5 @@
 
-import { currencyFormatter } from "../../util/formatting"
+import { currencyFormatter } from "../util/formatting"
 
 export default function CartItem({name, quantity, price, onIncrease, onDecrease}){
     return <li className="cart-item">
